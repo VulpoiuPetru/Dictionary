@@ -1,0 +1,9 @@
+Word: Mere
+Category: Fruct
+Image: 
+Meaning: Marul e un fruct rosu
+--------------------------------------
+Word: Varza
+Category: Leguma
+Image: 
+Meaning: Varza este o leguma de culoare verde

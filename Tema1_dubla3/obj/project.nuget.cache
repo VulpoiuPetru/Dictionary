@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "B8M0WMeOFA1VI9AsClPHYZ9G2owu1+MqJR0oqNVkl5T4TfMszpANbG/TTd6N5u2M0A6tF516NphAUbobYA4Kbg==",
+  "success": true,
+  "projectFilePath": "E:\\Facultate an 2 sem 2\\MAP\\Tema1_dubla3\\Tema1_dubla3\\Tema1_dubla3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\petru\\.nuget\\packages\\microsoft.vcrtforwarders.140\\1.0.6\\microsoft.vcrtforwarders.140.1.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

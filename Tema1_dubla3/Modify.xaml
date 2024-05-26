@@ -1,0 +1,29 @@
+﻿<Window x:Class="Tema1_dubla3.Modify"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:extToolkit="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:Tema1_dubla3"
+        mc:Ignorable="d"
+        Title="Modify" Height="380" Width="610">
+    <Grid Margin="0,0,0,-6">
+        <Label Content="Word:" HorizontalAlignment="Left" Margin="31,142,0,0" VerticalAlignment="Top" Height="41" Width="88" FontSize="18"/>
+        <Label Content="Category:" HorizontalAlignment="Left" Margin="22,171,0,0" VerticalAlignment="Top" Height="41" Width="87" FontSize="18"/>
+        <Label Content="Image:" HorizontalAlignment="Left" Visibility="Collapsed" Margin="21,312,0,0" VerticalAlignment="Top" Height="38" Width="88" FontSize="18"/>
+        <Label Content="Meaning:" HorizontalAlignment="Left" Margin="25,215,0,0" VerticalAlignment="Top" Height="38" Width="92" FontSize="18"/>
+        <Image x:Name="SelectedImage" HorizontalAlignment="Left" Margin="412,150,0,0" VerticalAlignment="Top" Width="128" Height="118" Source="Images2/noimage.jpeg"/>
+        <TextBox HorizontalAlignment="Left" Margin="125,148,0,0" Name="Word" TextWrapping="Wrap"  VerticalAlignment="Top" Width="200" Height="28" TextChanged="Word_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="124,182,0,0" Name="Category" TextWrapping="Wrap"  VerticalAlignment="Top" Width="202" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Margin="123,317,0,0" Name="Image" Visibility="Collapsed" TextWrapping="Wrap"  VerticalAlignment="Top" Width="202" Height="28"/>
+        <TextBox HorizontalAlignment="Left" Margin="122,215,0,0" Name="Meaning" TextWrapping="Wrap" AcceptsReturn="True"  VerticalAlignment="Top" Width="206" Height="97" TextChanged="Meaning_TextChanged"/>
+        <Label Content="Search:" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" Height="27" Width="70"/>
+        <TextBox HorizontalAlignment="Left" Name="SearchText" TextChanged='SearchText_TextChanged' PreviewKeyDown="SearchText_PreviewKeyDown" Margin="99,32,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="227" Height="28"/>
+        <Button Content="Search" Click="SearchButton_Click" HorizontalAlignment="Left" Margin="341,35,0,0" VerticalAlignment="Top" Height="24" Width="55"/>
+        <ListBox x:Name="ListBox" SelectionChanged="ListBox_SelectionChanged_2" Visibility="Collapsed" Margin="93,65,242,224"/>
+        <Button Content="Save" Name="Save" HorizontalAlignment="Left" Margin="388,288,0,0" VerticalAlignment="Top" Height="48" Width="71" FontSize="18" Click="Save_Click"/>
+        <Button Content="Back" Name="Back" HorizontalAlignment="Left" Margin="485,288,0,0" VerticalAlignment="Top" Height="48" Width="71" FontSize="18" Click="Back_Click"/>
+
+
+    </Grid>
+</Window>

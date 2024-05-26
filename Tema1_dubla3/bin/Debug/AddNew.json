@@ -1,0 +1,44 @@
+[
+  {
+    "Word": "masa",
+    "Category": "mobilier",
+    "Image": "masa.jpeg",
+    "Meaning": "mobilier cu patru picioare pe care mananci"
+  },
+  {
+    "Word": "casa",
+    "Category": "locuinta",
+    "Image": "noimage.jpeg",
+    "Meaning": "Locuinta cu acoperis,usa,ferestre in care locuieste persoane."
+  },
+  {
+    "Word": "topor",
+    "Category": "unealta",
+    "Image": "topr.jpeg",
+    "Meaning": "Unealta de crapat lemne"
+  },
+  {
+    "Word": "scaun",
+    "Category": "mobilier",
+    "Image": "scaun.jpeg",
+    "Meaning": "Mobilier pe care te asezi"
+  },
+  {
+    "Word": "mar",
+    "Category": "fruct",
+    "Image": "download.jpeg",
+    "Meaning": "Fruct din pom fructifer ca se manaca cel mai des"
+  },
+  {
+    "Word": "lustra",
+    "Category": "mobilier",
+    "Image": "noimage.jpeg",
+    "Meaning": "lustra e un mobilier"
+  },
+  {
+    "Word": "motocicleta",
+    "Category": "vehicul",
+    "Image": "motocicleta.jpeg",
+    "Meaning": "vehicul pe doua roti,destul de rapid"
+  }
+]
